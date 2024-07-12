@@ -1,16 +1,17 @@
-#FOOTBALL.sol - FOOTBALL NFT Contract
-This is the README.md file for the "FOOTBALL.sol" smart contract, which implements the creation and management of FOOTBALL Non-Fungible Tokens (NFTs) on the Ethereum blockchain.
+## **FOOTBALL NFT Contract**
 
-##Contract Information
-Contract Name: FOOTBALL
-Contract Type: ERC721A (Extends ERC721 standard)
-Solidity Version: 0.8.9
-License: MIT
+This is the README.md file for the "**football.sol**" smart contract, which implements the creation and management of **FOOTBALL** Non-Fungible Tokens (NFTs) on the Ethereum blockchain.
 
-#Overview
+## **Contract Information**
+
+- **Contract Name**: football
+- **Contract Type**: ERC721A (Extends ERC721 standard)
+- **Solidity Version**: 0.8.9
+- **License**: MIT
+## Overview
 The "FOOTBALL.sol" contract allows the owner to mint a limited number of FOOTBALL NFTs. These NFTs are ERC721A tokens, meaning they extend the ERC721 standard with additional functionalities. Each NFT represents a unique football design and representation and is associated with a prompt description.
 
-#Features
+## Features
 **Minting**: The owner of the contract can mint FOOTBALL NFTs, limiting the total supply to 5 tokens.
 
 **Base URL**: The contract has a base URL that serves as the prefix for the NFT metadata URLs. The full metadata URL is constructed by appending the token ID to the base URL.
@@ -25,7 +26,7 @@ Make sure you have "erc721a/contracts/ERC721A.sol," and deploy the contract with
 **mint(uint256 quantity)** :
 Allows the owner to mint a specified quantity of FOOTBALL NFTs.
 
-Modifier: onlyOwner (The function can only be executed by the contract owner.)
+**Modifier: onlyOwner (The function can only be executed by the contract owner.)**
 Parameters:
 quantity: The number of NFTs to be minted.
 Requirements:
