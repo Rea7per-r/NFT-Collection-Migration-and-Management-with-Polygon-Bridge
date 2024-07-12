@@ -9,7 +9,7 @@ This is the README.md file for the "**football.sol**" smart contract, which impl
 - **Solidity Version**: 0.8.9
 - **License**: MIT
 ## Overview
-The "FOOTBALL.sol" contract allows the owner to mint a limited number of FOOTBALL NFTs. These NFTs are ERC721A tokens, meaning they extend the ERC721 standard with additional functionalities. Each NFT represents a unique football design and representation and is associated with a prompt description.
+The "football.sol" contract allows the owner to mint a limited number of FOOTBALL NFTs. These NFTs are ERC721A tokens, meaning they extend the ERC721 standard with additional functionalities. Each NFT represents a unique football design and representation and is associated with a prompt description.
 
 ## Features
 **Minting**: The owner of the contract can mint FOOTBALL NFTs, limiting the total supply to 5 tokens.
@@ -46,7 +46,7 @@ Allows the owner to mint a specified quantity of GIGANTIC BLACK HOLE NFTs.
 
 - **Modifier**: onlyOwner (The function can only be executed by the contract owner.)
 - **Parameters**:
-  - `quantity`: The number of NFTs to be minted.
+  - quantity: The number of NFTs to be minted.
 - **Requirements**:
   - The total supply of NFTs after minting must not exceed the maximum quantity (5).
 
@@ -58,7 +58,7 @@ Overrides the baseURI function from ERC721A to return the base URL for the NFTs.
 
 ### promptDescription() external view returns (string memory)
 
-Returns the prompt description associated with the GIGANTIC BLACK HOLE NFTs.
+Returns the prompt description which is 'Football is the best'.
 
 - **Returns**: The prompt description string.
 
@@ -79,3 +79,7 @@ The script will mint the specified number of NFTs and assign them to your addres
 
 Run the following commands to approve and deposit the minted NFTs from Ethereum to the Polygon Amoy network using the FxPortal Bridge:
 npx hardhat run scripts/approveDeposit.js --network amoy
+
+
+**Author**
+surajx070@gmail.com
