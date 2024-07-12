@@ -16,7 +16,7 @@ The "football.sol" contract allows the owner to mint a limited number of FOOTBAL
 
 **Base URL**: The contract has a base URL that serves as the prefix for the NFT metadata URLs. The full metadata URL is constructed by appending the token ID to the base URL.
 
-**Prompt Description**: The contract provides a function to retrieve the prompt description, which is "FOOTBALL" in this case.
+**Prompt Description**: The contract provides a function to retrieve the prompt description, which is "Football is the best" in this case.
 
 ## Contract Deployment
 
