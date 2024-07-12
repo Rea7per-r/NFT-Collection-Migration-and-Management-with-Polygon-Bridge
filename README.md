@@ -62,7 +62,12 @@ The script will mint the specified number of NFTs and assign them to your addres
 ### Approve and Deposit NFTs to Polygon Amoy
 
 Run the following commands to approve and deposit the minted NFTs from Ethereum to the Polygon Amoy network using the FxPortal Bridge:
-npx hardhat run scripts/approveDeposit.js --network amoy
+npx hardhat run scripts/approveDeposit.js --network sepolia
+
+### Get Balance
+Update the token address from amoy explorer and run the following command in order to know your balance of wallet.
+npx hardhat run scripts/getbalance.js --network amoy
+
 
 
 **Author**
