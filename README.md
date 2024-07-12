@@ -27,9 +27,9 @@ Make sure you have "erc721a/contracts/ERC721A.sol," and deploy the contract with
 Allows the owner to mint a specified quantity of FOOTBALL NFTs.
 
 **Modifier: onlyOwner (The function can only be executed by the contract owner.)**
-Parameters:
-quantity: The number of NFTs to be minted.
-Requirements:
+-Parameters:
+-quantity: The number of NFTs to be minted.
+-Requirements:
 The total supply of NFTs after minting must not exceed the maximum amount that is 5.
 
 **_baseURI() internal view override returns (string memory)**:
@@ -45,10 +45,8 @@ Returns: The prompt description string.
 Allows the owner to mint a specified quantity of FOOTBALL NFTs.
 
 - **Modifier**: onlyOwner (The function can only be executed by the contract owner.)
--
--  **Parameters**:
-- 
-  - quantity: The number of NFTs to be minted.
+- **Parameters**:
+-  - quantity: The number of NFTs to be minted.
 - **Requirements**:
   - The total supply of NFTs after minting must not exceed the maximum quantity (5).
 
