@@ -42,10 +42,12 @@ Returns: The prompt description string.
 
 ### mint(uint256 quantity)
 
-Allows the owner to mint a specified quantity of GIGANTIC BLACK HOLE NFTs.
+Allows the owner to mint a specified quantity of FOOTBALL NFTs.
 
 - **Modifier**: onlyOwner (The function can only be executed by the contract owner.)
-- **Parameters**:
+-
+-  **Parameters**:
+- 
   - quantity: The number of NFTs to be minted.
 - **Requirements**:
   - The total supply of NFTs after minting must not exceed the maximum quantity (5).
