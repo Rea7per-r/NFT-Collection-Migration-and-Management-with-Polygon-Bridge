@@ -23,22 +23,6 @@ The "football.sol" contract allows the owner to mint a limited number of FOOTBAL
 Make sure you have "erc721a/contracts/ERC721A.sol," and deploy the contract with Solidity version 0.8.9.
 
 ## Contract Functions
-**mint(uint256 quantity)** :
-Allows the owner to mint a specified quantity of FOOTBALL NFTs.
-
-**Modifier: onlyOwner (The function can only be executed by the contract owner.)**
--Parameters:
--quantity: The number of NFTs to be minted.
--Requirements:
-The total supply of NFTs after minting must not exceed the maximum amount that is 5.
-
-**_baseURI() internal view override returns (string memory)**:
-Overrides the baseURI function from ERC721A to return the base URL for the NFTs.
-Returns: The base URL for the NFTs.
-
-**promptDescription() external view returns (string memory)**
-Returns the prompt description associated with the FOOTBALL NFTs.
-Returns: The prompt description string.
 
 ### mint(uint256 quantity)
 
